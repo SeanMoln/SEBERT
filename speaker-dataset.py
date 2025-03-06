@@ -1,6 +1,7 @@
 import os
 import torchaudio
 from torch.utils.data import Dataset
+
 def load_transcriptions(root_dir):
     transcriptions = []
     for root, _, files in os.walk(root_dir):
